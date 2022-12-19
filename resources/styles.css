@@ -12,10 +12,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+html,
 body {
-    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
 }
 
 img {
@@ -24,7 +27,7 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color: var(--red)
+    background-color: var(--red);
 }
 
  .navbar a {
@@ -50,6 +53,9 @@ img {
     transform: scaleX(1);
 } */
 
+.logo img {
+    width: 150px;
+}
 
 /* MAIN */
 .wrapper {
