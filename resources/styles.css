@@ -20,6 +20,7 @@ html,
 body {
     height: 100vh;
     overflow: hidden;
+    margin: 0;
 }
 
 img {
@@ -75,7 +76,6 @@ img {
     margin: 0 auto;
     padding: 0 3rem;
     z-index: 10;
-    max-width: 82rem;
     width: 100%;
 }
 
