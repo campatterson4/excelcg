@@ -1,0 +1,13 @@
+:root {
+    --red: #B9302F;
+    --large-font: 2.5rem;
+    --normal-font: .94rem;
+}
+
+@media screen and (min-width: 768px){
+    :root {
+        --large-font: 5rem;
+        --normal-font: 1rem;
+    }
+}
+
