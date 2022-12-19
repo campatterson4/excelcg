@@ -27,7 +27,7 @@ img {
 
 /* NAVBAR */
 .navbar {
-    background-color: var(--red);
+    background-color: var(--white);
 }
 
  .navbar a {
@@ -55,6 +55,16 @@ img {
 
 .logo img {
     width: 150px;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+    max-width: 81rem;
+    width: 100%;
+    background-color: #B9302F;
 }
 
 /* MAIN */
