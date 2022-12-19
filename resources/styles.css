@@ -3,7 +3,7 @@
     --red: #B9302F;
     --black: #424242;
     --true-black: #000;
-    --white: #FAF9F6;
+    --white: #E3e5e8;
 }
 
 *,
@@ -43,6 +43,7 @@ img {
     text-transform: uppercase;
     color: var(--red);
     font-size: 1.3em;
+    font-weight: 700;
 }
 
 /*
@@ -65,6 +66,7 @@ img {
 
 .logo img {
     width: 125px;
+    margin-bottom: 0.4rem;
 }
 
 .logo {
