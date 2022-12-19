@@ -39,6 +39,11 @@ img {
     list-style-type: none;
 }
 
+.navbar h3 {
+    text-transform: uppercase;
+    color: var(--black);
+}
+
 /*
 .navbar a::before {
     content: "";
