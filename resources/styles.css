@@ -124,15 +124,25 @@ nav .fa-envelope {
     margin: 0 10px;
 }
 
- .fa-twitter {
+.fa-twitter:visited,
+.fa-facebook-f {
+    color: white;
+}
+
+.fa-twitter {
     color: white;
     float: right;
     margin: 8px auto;
+}
 
+.fa-facebook-f {
+    color: var(--white);
+    float: right;
+    margin: 8px auto;
+    margin-right: 20px !important;
 }
-.fa-twitter:visited {
-    color: white;
-}
+
+
 
 /* MAIN */
 .wrapper {
