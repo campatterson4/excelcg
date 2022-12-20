@@ -126,27 +126,25 @@ nav .fa-envelope {
 
 .fa-twitter:visited,
 .fa-facebook-f:visited,
-.fa-instagram:visited {
+.fa-instagram:visited,
+.fa-youtube {
     color: white;
 }
 
 .fa-twitter,
 .fa-facebook-f,
-.fa-instagram {
+.fa-instagram,
+.fa-youtube {
     color: var(--white);
     float: right;
     margin: 8px auto;
 }
 
-.fa-facebook-f {
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube {
     margin-right: 20px !important;
 }
-
-.fa-instagram {
-    margin-right: 20px !important;
-}
-
-
 
 /* MAIN */
 .wrapper {
