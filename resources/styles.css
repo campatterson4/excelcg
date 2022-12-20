@@ -98,6 +98,15 @@ header .container {
     background-color: var(--dark-red);
 }
 
+nav {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+    width: 100%;
+    background-color: var(--red);
+}
+
 /* MAIN */
 .wrapper {
     padding: 1.7rem 0 2rem;
