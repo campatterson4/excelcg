@@ -125,20 +125,24 @@ nav .fa-envelope {
 }
 
 .fa-twitter:visited,
-.fa-facebook-f {
+.fa-facebook-f:visited,
+.fa-instagram:visited {
     color: white;
 }
 
-.fa-twitter {
-    color: white;
-    float: right;
-    margin: 8px auto;
-}
-
-.fa-facebook-f {
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram {
     color: var(--white);
     float: right;
     margin: 8px auto;
+}
+
+.fa-facebook-f {
+    margin-right: 20px !important;
+}
+
+.fa-instagram {
     margin-right: 20px !important;
 }
 
