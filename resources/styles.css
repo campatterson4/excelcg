@@ -112,7 +112,15 @@ nav {
 nav p {
     padding-top: 8px;
     display: inline-block;
-    font-size: .9em;
+    font-size: .8em;
+}
+
+nav .fa-phone { 
+    margin-right: 10px;
+}
+
+nav .fa-envelope {
+    margin: 0 10px;
 }
 
 /* MAIN */
