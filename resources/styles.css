@@ -70,6 +70,14 @@ nav .fa-envelope {
     margin: 8px auto;
 }
 
+.fa-twitter:hover,
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    filter: brightness(85%);
+    transition: 0.3s;
+}
+
 .fa-facebook-f,
 .fa-instagram,
 .fa-youtube {
