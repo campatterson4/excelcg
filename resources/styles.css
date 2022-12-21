@@ -23,13 +23,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+/* img {
     width: 100%;
-}
+} */
 
 /* NAVBAR */
-.navbar {
+/* .navbar {
     background-color: var(--white);
+    position: sticky;
 }
 
  .navbar a {
@@ -144,13 +145,13 @@ nav .fa-envelope {
 .fa-instagram,
 .fa-youtube {
     margin-right: 20px !important;
-}
+} */
 
 /* MAIN */
-.wrapper {
+/* .wrapper {
     padding: 1.7rem 0 2rem;
     overflow: hidden;
     min-height: 100vh;
     width: 100%;
     background-color: var(--white);
-}
+} */
