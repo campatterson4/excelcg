@@ -128,7 +128,18 @@ nav.container {
     width: 100%;
 }
 
+.btn {
+    display: inline-block;
+    background-color: var(--red);
+    color: var(--white) !important;
+    border-radius: 16px;
+    padding: .8rem;
+    transition: 0.3s;
+}
 
+.btn:hover {
+    background-color: var(--dark-red);
+}
 
 
 
