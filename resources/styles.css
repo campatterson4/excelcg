@@ -26,15 +26,62 @@ body {
 /* ----- NAVBAR ------ */
 
 nav h3 {
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: var(--red);
 }
 
 nav a {
     text-decoration: none;
+    color: var(--red);
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav a:visited {
+    color: var(--red);
 }
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    font-size: .9em;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.container {
+    position: relative;
+    padding: 0 2rem;
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--red);
+    color: var(--white) !important;
+    border-radius: 16px;
+    padding: .8rem;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover {
+    background-color: var(--dark-red);
 }
 
 
