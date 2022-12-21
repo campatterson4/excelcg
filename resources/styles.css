@@ -23,10 +23,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.img {
-    width: 100%;
-}
-
 a {
     text-decoration: none;
 }
@@ -83,6 +79,53 @@ nav.container {
     display: flex;
     align-items: center;
     width: 100%;
+}
+
+.top-items p {
+    display: inline-block;
+    font-size: .8em;
+}
+
+.top-items {
+    color: var(--black);
+}
+
+.top-items .fa-phone { 
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.top-items .fa-envelope {
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.fa-twitter:visited,
+.fa-facebook-f:visited,
+.fa-instagram:visited,
+.fa-youtube {
+    color: var(--black);
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube {
+    color: var(--black);
+    float: right;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube {
+    margin-right: 30px !important;
+}
+
+.fa-twitter {
+    margin-right: 20px;
 }
 
 
