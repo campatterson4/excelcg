@@ -87,6 +87,11 @@ nav .fa-envelope {
     color: var(--black);
     display: inline-block;
     margin-left: 2.5rem;
+    transition: 0.4s;
+}
+
+.navbar a:hover {
+    color: var(--dark-red) !important;
 }
 
 .navbar a:visited {
