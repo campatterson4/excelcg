@@ -85,15 +85,8 @@ nav .fa-envelope {
 }
 
 /* ----- MAIN NAVBAR -----*/
-nav, 
-.navbar {
-    position: fixed;
-}
-
 .navbar {
     background-color: var(--white);
-    width: 100vw;
-    height: 15vh;
 }
 
  .navbar a {
@@ -102,7 +95,6 @@ nav,
     color: var(--black);
     display: inline-block;
     margin-left: 2.5rem;
-    margin-top: 1.7em;
 }
 
 .navbar .nav-services:hover {
@@ -129,13 +121,11 @@ nav,
     color: var(--red);
     font-size: 1.3em;
     font-weight: 700;
-    margin-top: 1.2em;
 }
 
 .logo img {
     width: 100px;
     margin-bottom: 0.4rem;
-    margin-top: 1.5em;
 }
 
 .logo {
@@ -178,14 +168,3 @@ header .container {
     width: 100%;
     background-color: var(--white);
 }
-
-
-
-
-
-
-
-
-
-
-
