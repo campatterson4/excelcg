@@ -103,6 +103,18 @@ header .container {
     justify-content: space-between;
 }
 
+header.scrolled li {
+    font-size: .86rem;
+}
+
+header.scrolled h3 {
+    font-size: 1.2rem;
+}
+
+header.scrolled .logo-pic {
+    width: 80px;
+}
+
 header,
 .nav-container {
     position: fixed;
@@ -144,10 +156,12 @@ header,
     color: var(--red);
     font-size: 1.3em;
     font-weight: 700;
+    transition: 0.4s;
 }
 
 .logo img {
     width: 100px;
+    transition: 0.4s;
 }
 
 .logo {
