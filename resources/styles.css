@@ -5,6 +5,7 @@
     --true-black: #000;
     --white: #E3e5e8;
     --dark-red: #A22727;
+    --transparent: rgba(255, 255, 255, 0.6);
 }
 
 *,
