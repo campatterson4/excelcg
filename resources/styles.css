@@ -92,7 +92,6 @@ nav,
 
 .navbar {
     background-color: var(--white);
-    /* background-color: green; */
     width: 100vw;
     height: 10vh;
 }
