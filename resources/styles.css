@@ -85,8 +85,10 @@ nav .fa-envelope {
 }
 
 /* ----- MAIN NAVBAR -----*/
-.navbar {
-    background-color: var(--white);
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
  .navbar a {
