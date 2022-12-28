@@ -1,9 +1,9 @@
 ///////////NAVBAR
 const header = document.querySelector('header');
 
-window.addEventListener('scroll', stickyNavbar);
+window.addEventListener('scroll', fixedNav);
 
-function stickyNavbar() {
+function fixedNav() {
     header.classList.toggle('scrolled', window.scrollY > 0);
 }
 
