@@ -5,7 +5,7 @@
     --true-black: #000;
     --white: #E3e5e8;
     --dark-red: #A22727;
-    --transparent: rgba(255, 255, 255, 0.6);
+    --transparent: #e8e9ea;
 }
 
 *,
@@ -89,6 +89,7 @@ nav .fa-envelope {
 header {
     width: 100%;
     z-index: 10;
+    transition: 0.3s;
 }
 
 header,
@@ -98,6 +99,11 @@ header,
 
 .nav-container {
     width: 100vw;
+}
+
+header.scrolled {
+    background-color: var(--transparent);
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
 }
 
  .navbar a {
@@ -136,7 +142,6 @@ header,
 
 .logo img {
     width: 100px;
-    margin-bottom: 0.4rem;
 }
 
 .logo {
@@ -146,7 +151,7 @@ header,
 
 .container {
     position: relative;
-    margin: 0 auto;
+    margin: 1.2rem auto;
     padding: 0 3rem;
     z-index: 10;
     width: 100%;
@@ -173,7 +178,7 @@ header .container {
 
 /* ----- MAIN ----- */
 .wrapper {
-    padding: 1.7rem 0 2rem;
+    padding: 0 0 2rem;
     overflow: hidden;
     min-height: 100vh;
     width: 100%;
