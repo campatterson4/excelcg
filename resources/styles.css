@@ -199,15 +199,3 @@ header,
     background-color: var(--white);
 }
 
-.main-area {
-    width: 100%;
-    padding: 120px 0;
-    overflow: hidden;
-}
-
-.main-area .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: calc(100vh - 120px);
-    max-height: 600px;
-}
