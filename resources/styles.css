@@ -22,6 +22,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
 }
 
 img {
@@ -190,11 +191,21 @@ header,
     background-color: var(--dark-red);
 }
 
-/* ----- MAIN ----- */
 .wrapper {
     padding: 0 0 2rem;
     overflow: hidden;
-    min-height: 100vh;
     width: 100%;
     background-color: var(--white);
+}
+
+/* ----- MAIN ----- */
+.main-area {
+    padding: 250px 95px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-area .main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
