@@ -190,11 +190,24 @@ header,
     background-color: var(--dark-red);
 }
 
-/* ----- MAIN ----- */
+/* ----- MAIN INFO AREA ----- */
 .wrapper {
     padding: 0 0 2rem;
     overflow: hidden;
     min-height: 100vh;
     width: 100%;
     background-color: var(--white);
+}
+
+.main-area {
+    width: 100%;
+    padding: 120px 0;
+    overflow: hidden;
+}
+
+.main-area .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: calc(100vh - 120px);
+    max-height: 600px;
 }
