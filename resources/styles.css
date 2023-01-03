@@ -190,7 +190,7 @@ header,
     background-color: var(--dark-red);
 }
 
-/* ----- MAIN INFO AREA ----- */
+/* ----- MAIN ----- */
 .wrapper {
     padding: 0 0 2rem;
     overflow: hidden;
@@ -198,4 +198,3 @@ header,
     width: 100%;
     background-color: var(--white);
 }
-
