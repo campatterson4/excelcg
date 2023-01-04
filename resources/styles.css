@@ -208,7 +208,7 @@ header,
 
 .main-area .main-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr .8fr;
     padding-top: 30px;
     align-items: center;
     height: calc(100vh - 170px);
@@ -277,5 +277,14 @@ header,
     font-size: 1.7rem;
     color: var(--white);
     text-transform: uppercase;
+}
+
+.main-services li {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 75px;
+    color: var(--white);
+    font-size: 1.3em;
+    line-height: 5em;
 }
 
