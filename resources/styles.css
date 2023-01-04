@@ -232,25 +232,17 @@ header,
 
 .main-info h1 {
     text-transform: uppercase;
-    font-size: 7em;
-    letter-spacing: 13px;
+    font-size: 3em;
+    letter-spacing: 6px;
     color: var(--white);
 }
 
 .main-subheading {
     color: var(--red);
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.3em;
     font-style: italic;
     padding-right: 40px;
-}
-
-.divider {
-    color: var(--black);
-}
-
-.est {
-    color: var(--red);
 }
 
 .main-text {
