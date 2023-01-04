@@ -222,10 +222,8 @@ header,
     text-align: center;
     height: 105%;
     border: 3px solid var(--black);
-    background-image: linear-gradient(to bottom, transparent, #000000), url("./images/main-image.jpeg");    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, transparent, #000000), url("./images/main-image.jpeg");
     background-size: cover;
-	background-position: top;
-	backdrop-filter: blur(3px);
     background-color: #000;
 
 }
@@ -253,7 +251,21 @@ header,
     width: 70%;
     font-size: 1em;
     padding: 30px 20px;
+}
 
+.main-inspection-btn {
+    font-size: .8em;
+    background-color: var(--red);
+    color: var(--white) !important;
+    border-radius: 16px;
+    padding: .8rem;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-inspection-btn:hover {
+    background-color: var(--dark-red);
 }
 
 /* RIGHT */
@@ -269,10 +281,11 @@ header,
 
 .main-services h3 {
     text-align: center;
-    padding: 15px;
+    padding: 30px 15px;
     font-size: 1.7rem;
     color: var(--white);
     text-transform: uppercase;
 }
+
 
 
