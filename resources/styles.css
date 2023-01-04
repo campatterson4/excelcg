@@ -226,6 +226,7 @@ header,
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-clip: border-box;
+    border: 5px solid var(--black);
 }
 
 .main-heading {
@@ -265,5 +266,14 @@ header,
       display: grid;
       grid-template-columns: 1fr;
       height: 104%;
+      border: 5px solid var(--black);
+}
+
+.main-services h3 {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.7rem;
+    color: var(--white);
+    text-transform: uppercase;
 }
 
