@@ -92,12 +92,12 @@ header {
     width: 100%;
     z-index: 999;
     transition: 0.3s;
-
 }
 
 header.scrolled {
     background-color: var(--transparent);
     box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
 header .container {
@@ -239,7 +239,7 @@ header,
 .main-subheading {
     color: var(--red);
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.18em;
     font-style: italic;
     padding-right: 40px;
     background-color: var(--white);
