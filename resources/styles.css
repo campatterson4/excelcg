@@ -90,8 +90,9 @@ nav .fa-envelope {
 /* ----- MAIN NAVBAR -----*/
 header {
     width: 100%;
-    z-index: 10;
+    z-index: 999;
     transition: 0.3s;
+
 }
 
 header.scrolled {
@@ -219,19 +220,19 @@ header,
 .main-info {
     padding-top: 80px;
     text-align: center;
-    height: 104%;
+    height: 105%;
     background: rgba(0, 0, 0, .65) url(./images/main-image.jpeg);
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-clip: border-box;
     border: 3px solid var(--black);
 }
 
-.main-heading {
+.main-info h1 {
     text-transform: uppercase;
-    font-size: 8em;
+    font-size: 7em;
     letter-spacing: 13px;
     color: var(--white);
 }
@@ -245,7 +246,7 @@ header,
 }
 
 .divider {
-    color: var(--white);
+    color: var(--black);
 }
 
 .est {
@@ -265,7 +266,7 @@ header,
       background-color: var(--red);
       display: grid;
       grid-template-columns: 1fr;
-      height: 104%;
+      height: 105%;
       border-right: 3px solid var(--black);
       border-top: 3px solid var(--black);
       border-bottom: 3px solid var(--black);
@@ -273,18 +274,10 @@ header,
 
 .main-services h3 {
     text-align: center;
-    padding: 30px;
+    padding: 15px;
     font-size: 1.7rem;
     color: var(--white);
     text-transform: uppercase;
 }
 
-.main-services li {
-    text-align: left;
-    list-style-type: none;
-    padding-left: 75px;
-    color: var(--white);
-    font-size: 1.3em;
-    line-height: 5em;
-}
 
