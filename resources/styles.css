@@ -221,7 +221,7 @@ header,
     padding-top: 80px;
     text-align: center;
     height: 105%;
-    border: 3px solid var(--black);
+    /* border: 3px solid var(--black); */
     background-image: linear-gradient(to bottom, transparent, #000000), url("./images/main-image.jpeg");
     background-size: cover;
     background-color: #000;
@@ -274,9 +274,9 @@ header,
       display: grid;
       grid-template-columns: 1fr;
       height: 105%;
-      border-right: 3px solid var(--black);
+      /* border-right: 3px solid var(--black);
       border-top: 3px solid var(--black);
-      border-bottom: 3px solid var(--black);
+      border-bottom: 3px solid var(--black); */
 }
 
 .main-services h3 {
