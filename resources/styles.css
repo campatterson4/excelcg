@@ -212,7 +212,7 @@ header,
     grid-template-columns: 2fr;
     padding-top: 30px;
     align-items: center;
-    height: calc(100vh - 170px);
+    height: calc(105vh - 165px);
     max-height: 600px;
 }
 
