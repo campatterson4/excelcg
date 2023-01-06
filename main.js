@@ -7,7 +7,7 @@ function fixedNav() {
     header.classList.toggle('scrolled', window.scrollY > 0);
 }
 
-/////////// SCROLL REVEAL
+/////////// SCROLL REVEAL MAIN
 
 let sr = ScrollReveal({
     duration: 2500,
